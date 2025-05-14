@@ -8,7 +8,7 @@ class Class1(ABC):
     def method1(self):
         pass
     
-    def method5():
+    def method5(self):
         pass
 
     def list_parent_methods(self):
@@ -49,3 +49,6 @@ print(m.list_parent_methods())
 
 m2 = Class3()
 print(m2.list_parent_methods())
+
+print(m2.method5())
+
