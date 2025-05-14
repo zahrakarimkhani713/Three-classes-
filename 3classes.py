@@ -8,7 +8,8 @@ class Class1(ABC):
     def method1(self):
         pass
     
-    
+    def method5():
+        pass
 
     def list_parent_methods(self):
         bases = self.__class__.__bases__
@@ -41,3 +42,10 @@ class Class3(Class2):
 
     def method4(self):
         pass
+
+
+m = Class2()
+print(m.list_parent_methods())
+
+m2 = Class3()
+print(m2.list_parent_methods())
